@@ -1,0 +1,25 @@
+
+.main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 5px;
+}
+
+.grid-squares {
+    background: whitesmoke;
+}
+
+.grid-squares img {
+    width: 100%;
+}
